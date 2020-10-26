@@ -1,6 +1,6 @@
 # Emotion Detection from text using PyTorch
 
-# [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anmol-sinha-coder/Sentiment_Emotion_Analysis/blob/main/Multi_Emotion_Analyzer/Emotion_detection_from_text_using_PyTorch.ipynb)
+# [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anmol-sinha-coder/Sentiment_Emotion_Analysis/blob/main/Multi_Emotion_Analyzer/Emotion_detection_from_text_using_PyTorch.ipynb)<--Click on the icon to open Google CoLab
 
 ## Project Notebook
 Open project [notebook](Emotion_detection_from_text_using_PyTorch.ipynb).
