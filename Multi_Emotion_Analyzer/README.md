@@ -1,15 +1,8 @@
 # Emotion Detection from text using PyTorch
 
-## Collaborators
-
-Name | Slack handle |
---- | --- |
-Karan Kishinani | @Karan Kishinani |
-Kapil Chandorikar | @Kapil Chandorikar |
-Aditya Kumar | @Aditya kumar |
+# [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anmol-sinha-coder/Sentiment_Emotion_Analysis/blob/main/Multi_Emotion_Analyzer/Emotion_detection_from_text_using_PyTorch.ipynb)
 
 ## Project Notebook
-
 Open project [notebook](Emotion_detection_from_text_using_PyTorch.ipynb).
 
 ## The Project
@@ -17,9 +10,6 @@ Open project [notebook](Emotion_detection_from_text_using_PyTorch.ipynb).
 ### What is the project about?
 This project is about performing emotion detection from text using PyTorch and Federated Learning.
 For this project, we implemented an NLP task of creating a model to detect the emotion from text. We developed this using the PyTorch library where we created our Deep Neural Network using GloVe Word Embeddings, LSTMs and fully connected layers. Additionally we added the Federated Learning framework for decentralized training.
-
-### Why?
-This project serves as a demonstration of the concepts taught in the *Secure and Private AI Challenge*, by Udacity and Facebook along with some of the members of the `#sg_caffeine_coders` Study Group. This is our submission for the Project Showcase Challenge for this program.
 
 ### Dataset
 
@@ -94,14 +84,3 @@ Emotion: 	😄 Happy
 We additionally added Federated Learning in our project and our code is  is meant to work out of the box, however at the time of project submission, there is an open issue in PySyft that causes an error with the LSTM implementation in PyTorch while performing Federated Learning. 
 
 The problem is that GRUs and LSTMs from PyTorch use the method `.size()` to get the shape of tensors. It works well in PyTorch code, but it doesn’t in PySyft, because while performing Federated Learning with remote tensors, the `.size()` of a pointer is always `0` and we only can use `.shape` on pointers to get the shape of the tensor.
-
-You can look at the following open issue in PySyft which was also brought up by a fellow scholar from the SPAIC program `@André Farias`:
-
-https://github.com/OpenMined/PySyft/pull/2349
-
-Once the issue has been resolved this code should work after PySyft has been updated.
-
-## Final Comments
-Security and Privacy is what gives our model a powerful existence and this is where Federated learning comes. Federated learning doesn't just allow us to train model at user end or at neutral aggregators end it also acts as technique to manage the data aggregation happening from multiple teaching devices. Being able to train on distributed text data (mimicking the concept of getting and deploying trained models or summary from teachers in this case devices like - mobile and Computers) can make this idea of emotion detection from text useful and efficient for modern day keyboards prediction and emoji prediction on the fly.
-
-Please take a look at our project [notebook](Emotion_detection_from_text_using_PyTorch.ipynb) for a more detailed view on our project. 
