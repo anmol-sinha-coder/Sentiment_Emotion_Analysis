@@ -15,8 +15,8 @@ For this project, we implemented an NLP task of creating a model to detect the e
 
 Phase | Instances | File |
 --- | --- | --- |
-Training | 132 | train.csv |
-Testing | 56 | test.csv |
+Training | 13225 | train.csv |
+Testing | 5631 | test.csv |
 
 * Each sentence contains maximum 10 words.     
 * GloVe Embedding used: `glove.6B.50d.txt`   
