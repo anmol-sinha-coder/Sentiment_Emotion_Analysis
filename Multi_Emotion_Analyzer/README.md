@@ -15,11 +15,11 @@ For this project, we implemented an NLP task of creating a model to detect the e
 
 Phase | Instances | File |
 --- | --- | --- |
-Training | 13225 | train.csv |
-Testing | 5631 | test.csv |
+Training | 132 | train.csv |
+Testing | 56 | test.csv |
 
 * Each sentence contains maximum 10 words.     
-* GloVe Embedding used: `glove.6B.50d.txt`   
+* GloVe Embedding used: `glove.6B.200d.txt`   
 The embedding can be downloaded from [here](https://worksheets.codalab.org/rest/bundles/0x97c870dd60eb4f0fa53f257978851c60/contents/blob/glove.6B.50d.txt ).
 
 For example:
